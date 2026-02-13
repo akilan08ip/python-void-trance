@@ -4,6 +4,8 @@ import ParticleBackground from "@/components/ParticleBackground";
 import HeroSection from "@/components/HeroSection";
 import CodeInputSection from "@/components/CodeInputSection";
 import ExplanationSection from "@/components/ExplanationSection";
+import FlowchartSection from "@/components/FlowchartSection";
+import PythonRoadmapSection from "@/components/PythonRoadmapSection";
 import BeginnerSection from "@/components/BeginnerSection";
 
 const Index = () => {
@@ -41,10 +43,12 @@ const Index = () => {
             transition={{ duration: 0.5 }}
           >
             <ExplanationSection code={tracedCode} />
+            <FlowchartSection code={tracedCode} />
           </motion.div>
         )}
       </AnimatePresence>
 
+      <PythonRoadmapSection />
       <BeginnerSection />
     </div>
   );
