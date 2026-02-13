@@ -3,7 +3,7 @@ import PiModel from "./PiModel";
 
 const HeroSection = ({ onStart }: { onStart: () => void }) => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-4">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 gap-4">
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
