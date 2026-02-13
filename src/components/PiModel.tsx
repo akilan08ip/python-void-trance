@@ -69,8 +69,8 @@ function PiSymbol() {
 
 const PiModel = () => {
   return (
-    <div className="w-full h-[400px] md:h-[500px]">
-      <Canvas camera={{ position: [0, 0, 7], fov: 50 }}>
+    <div className="w-full h-[500px] md:h-[700px]">
+      <Canvas camera={{ position: [0, 0, 6], fov: 55 }}>
         <ambientLight intensity={0.2} />
         <pointLight position={[5, 5, 5]} intensity={1} color="#a855f7" />
         <pointLight position={[-5, -5, 5]} intensity={0.5} color="#e879f9" />
