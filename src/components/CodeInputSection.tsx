@@ -36,10 +36,10 @@ const CodeInputSection = ({ onTrace }: CodeInputSectionProps) => {
 
         <div className="glass neon-box p-1 rounded-xl">
           <div className="flex items-center gap-2 px-4 py-2 border-b border-border/50">
-            <div className="w-3 h-3 rounded-full bg-destructive/60" />
-            <div className="w-3 h-3 rounded-full bg-accent/40" />
-            <div className="w-3 h-3 rounded-full bg-primary/40" />
-            <span className="text-xs text-muted-foreground font-mono ml-2">main.py</span>
+            <div className="w-3 h-3 rounded-full bg-red-500" />
+            <div className="w-3 h-3 rounded-full bg-yellow-500" />
+            <div className="w-3 h-3 rounded-full bg-green-500" />
+            <span className="text-xs font-mono ml-2 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent font-semibold">main.py</span>
           </div>
           <textarea
             value={code}

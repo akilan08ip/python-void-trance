@@ -13,7 +13,7 @@ const DateTimeDisplay = () => {
       <div className="text-primary font-semibold text-sm">
         {now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}
       </div>
-      <div>{now.toLocaleDateString([], { weekday: "short", month: "short", day: "numeric", year: "numeric" })}</div>
+      <div>{now.toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" })}</div>
     </div>
   );
 };

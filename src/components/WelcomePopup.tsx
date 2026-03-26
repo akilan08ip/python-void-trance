@@ -18,7 +18,7 @@ const WelcomePopup = () => {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.8, y: 40 }}
           transition={{ type: "spring", duration: 0.6 }}
-          className="fixed bottom-6 right-6 z-50 glass-strong neon-box rounded-2xl p-6 max-w-sm shadow-2xl"
+          className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 glass-strong neon-box rounded-2xl p-6 max-w-sm shadow-2xl"
         >
           <button
             onClick={() => setShow(false)}
