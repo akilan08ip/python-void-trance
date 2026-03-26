@@ -28,8 +28,10 @@ const CodeInputSection = ({ onTrace }: CodeInputSectionProps) => {
         transition={{ duration: 0.6 }}
         className="w-full max-w-3xl"
       >
-        <h2 className="text-3xl md:text-4xl font-display font-bold neon-text mb-8 text-center">
-          Paste Your Code
+        <h2 className="text-3xl md:text-4xl font-display font-bold mb-8 text-center">
+          <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+            Paste Your Code
+          </span>
         </h2>
 
         <div className="glass neon-box p-1 rounded-xl">
