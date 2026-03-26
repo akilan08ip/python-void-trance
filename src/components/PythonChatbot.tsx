@@ -67,9 +67,9 @@ const PythonChatbot = () => {
             exit={{ scale: 0 }}
             whileHover={{ scale: 1.1 }}
             onClick={() => setOpen(true)}
-            className="fixed bottom-6 left-6 z-50 gradient-primary text-primary-foreground w-14 h-14 rounded-full flex items-center justify-center shadow-lg neon-box"
+            className="fixed bottom-6 left-6 z-50 gradient-primary text-primary-foreground w-14 h-14 rounded-full flex items-center justify-center shadow-lg neon-box text-2xl"
           >
-            <MessageCircle className="w-6 h-6" />
+            🐍
           </motion.button>
         )}
       </AnimatePresence>
