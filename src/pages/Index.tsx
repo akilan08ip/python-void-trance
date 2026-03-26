@@ -7,6 +7,9 @@ import ExplanationSection from "@/components/ExplanationSection";
 import FlowchartSection from "@/components/FlowchartSection";
 import PythonRoadmapSection from "@/components/PythonRoadmapSection";
 import BeginnerSection from "@/components/BeginnerSection";
+import WelcomePopup from "@/components/WelcomePopup";
+import DateTimeDisplay from "@/components/DateTimeDisplay";
+import PythonChatbot from "@/components/PythonChatbot";
 
 const Index = () => {
   const [tracedCode, setTracedCode] = useState<string | null>(null);
