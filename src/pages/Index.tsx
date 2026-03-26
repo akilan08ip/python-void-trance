@@ -5,7 +5,9 @@ import HeroSection from "@/components/HeroSection";
 import CodeInputSection from "@/components/CodeInputSection";
 import ExplanationSection from "@/components/ExplanationSection";
 import FlowchartSection from "@/components/FlowchartSection";
+import CodeQuizSection from "@/components/CodeQuizSection";
 import PythonRoadmapSection from "@/components/PythonRoadmapSection";
+import PythonBlogSection from "@/components/PythonBlogSection";
 import BeginnerSection from "@/components/BeginnerSection";
 import WelcomePopup from "@/components/WelcomePopup";
 import DateTimeDisplay from "@/components/DateTimeDisplay";
@@ -50,10 +52,12 @@ const Index = () => {
           >
             <ExplanationSection code={tracedCode} />
             <FlowchartSection code={tracedCode} />
+            <CodeQuizSection code={tracedCode} />
           </motion.div>
         )}
       </AnimatePresence>
 
+      <PythonBlogSection />
       <PythonRoadmapSection />
       <BeginnerSection />
     </div>
