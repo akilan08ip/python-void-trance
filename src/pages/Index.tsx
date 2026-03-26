@@ -30,6 +30,9 @@ const Index = () => {
   return (
     <div className="relative min-h-screen">
       <ParticleBackground />
+      <DateTimeDisplay />
+      <WelcomePopup />
+      <PythonChatbot />
 
       <HeroSection onStart={handleStart} />
 
