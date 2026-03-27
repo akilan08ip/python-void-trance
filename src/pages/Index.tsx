@@ -33,6 +33,7 @@ const Index = () => {
   return (
     <div className="relative min-h-screen">
       <ParticleBackground />
+      <Navbar />
       <DateTimeDisplay />
       <WelcomePopup />
       <PythonChatbot />
