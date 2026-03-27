@@ -31,7 +31,7 @@ const Index = () => {
   };
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen pt-14">
       <ParticleBackground />
       <Navbar />
       <DateTimeDisplay />
