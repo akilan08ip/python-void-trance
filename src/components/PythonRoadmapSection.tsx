@@ -111,7 +111,7 @@ const PythonRoadmapSection = () => {
   return (
     <div>
       {/* Python Roadmap */}
-      <section className="px-4 py-20">
+      <section id="roadmap" className="px-4 py-20">
         <div className="w-full max-w-4xl mx-auto">
           <motion.h2
             initial={{ opacity: 0 }}

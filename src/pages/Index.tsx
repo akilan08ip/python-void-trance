@@ -12,6 +12,7 @@ import BeginnerSection from "@/components/BeginnerSection";
 import WelcomePopup from "@/components/WelcomePopup";
 import DateTimeDisplay from "@/components/DateTimeDisplay";
 import PythonChatbot from "@/components/PythonChatbot";
+import Navbar from "@/components/Navbar";
 
 const Index = () => {
   const [tracedCode, setTracedCode] = useState<string | null>(null);
@@ -32,13 +33,14 @@ const Index = () => {
   return (
     <div className="relative min-h-screen">
       <ParticleBackground />
+      <Navbar />
       <DateTimeDisplay />
       <WelcomePopup />
       <PythonChatbot />
 
       <HeroSection onStart={handleStart} />
 
-      <div ref={codeRef}>
+      <div ref={codeRef} id="code-input">
         <CodeInputSection onTrace={handleTrace} />
       </div>
 

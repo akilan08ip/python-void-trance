@@ -34,7 +34,7 @@ const BeginnerSection = () => {
   const [eli10, setEli10] = useState(false);
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20">
+    <section id="beginner" className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="w-full max-w-3xl">
         <motion.h2
           initial={{ opacity: 0 }}
