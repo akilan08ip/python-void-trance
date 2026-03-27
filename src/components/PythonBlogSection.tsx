@@ -223,19 +223,7 @@ const PythonBlogSection = () => {
 
                       {/* Code Example */}
                       {post.code && (
-                        <div className="mt-6">
-                          <div className="flex items-center gap-2 px-4 py-2 bg-muted/30 rounded-t-lg border border-border/50 border-b-0">
-                            <div className="w-2.5 h-2.5 rounded-full bg-red-500" />
-                            <div className="w-2.5 h-2.5 rounded-full bg-yellow-500" />
-                            <div className="w-2.5 h-2.5 rounded-full bg-green-500" />
-                            <span className="text-[10px] font-mono text-muted-foreground ml-2">
-                              example.py
-                            </span>
-                          </div>
-                          <pre className="font-mono text-xs bg-muted/20 p-4 rounded-b-lg border border-border/50 overflow-x-auto text-foreground leading-relaxed">
-                            {post.code}
-                          </pre>
-                        </div>
+                        <CodeBlock code={post.code} filename={`${post.id}.py`} />
                       )}
                     </div>
                   </motion.div>

@@ -40,7 +40,7 @@ const Index = () => {
 
       <HeroSection onStart={handleStart} />
 
-      <div ref={codeRef}>
+      <div ref={codeRef} id="code-input">
         <CodeInputSection onTrace={handleTrace} />
       </div>
 
