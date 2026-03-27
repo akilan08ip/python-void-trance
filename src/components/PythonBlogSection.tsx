@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { BookOpen, ChevronDown, ChevronUp } from "lucide-react";
+import CodeBlock from "./CodeBlock";
 
 interface BlogPost {
   id: string;
